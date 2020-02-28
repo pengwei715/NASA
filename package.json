@@ -1,6 +1,6 @@
 {
-    "homepage": "https://pengwei715.github.io/NASA/.",
-    "name": "hw4",
+    "homepage": "https://pengwei715.github.io/NASA",
+    "name": "nasa",
     "version": "1.0.0",
     "description": "20 points",
     "main": "index.js",
@@ -8,10 +8,9 @@
         "test": "echo \"Error: no test specified\" && exit 1",
         "dev": "npx webpack-dev-server ",
         "predeploy": "npm run build",
-        "deploy":"gh-pages -d build",
+        "deploy": "gh-pages -d build",
         "build": "webpack -p --define process.env.NODE_ENV='\"production\"' --progress --colors",
         "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js"
-
     },
     "keywords": [],
     "author": "",
@@ -43,6 +42,6 @@
     },
     "dependencies": {
         "@babel/runtime": "^7.8.4",
-        "gh-pages": "^2.2.0"
+        "gh-pages":"^2.2.0"
     }
 }
