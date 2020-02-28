@@ -8,7 +8,7 @@
         "test": "echo \"Error: no test specified\" && exit 1",
         "dev": "npx webpack-dev-server ",
         "predeploy": "npm run build",
-        "deploy": "gh-pages -d build",
+        "deploy": "gh-pages -d dist",
         "build": "webpack -p --define process.env.NODE_ENV='\"production\"' --progress --colors",
         "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js"
     },
